@@ -4,7 +4,8 @@ const phone = "48512496766"
 
 export default function Hero() {
   return (
-    <section className={"bg-hero-pattern bg-no-repeat bg-cover h-screen sm:h-[80vh] text-white flex items-center select-none"}>
+    <section
+      className={"bg-hero-pattern bg-no-repeat bg-cover h-screen sm:h-[80vh] text-white flex items-center select-none"}>
       <div className={"max-w-[1280px] w-full mx-auto select-auto px-2"}>
         <div className={"text-[32px] sm:text-[48px] font-extrabold"}>
           <p>
@@ -15,13 +16,17 @@ export default function Hero() {
           <span className={"text-primary"}> AIRBAGOW</span>
         </div>
 
-        <p className={"desc pb-3 sm:w-[500px]"}>Orci, egestas pharetra diam turpis turpis posuere metus. Aliquam
-          dignissim fermentum vel
-          donec nunc id. </p>
+        <p className={"desc pb-3 sm:w-[500px]"}>
+          Nasza oferta usług skierowana jest do klientów indywidualnych oraz warsztatów samochodowych z całej Europy,
+          ogległość nie jest dla nas ograniczeniem`
+        </p>
 
         <div className={"flex sm:items-center gap-6 flex-col sm:flex-row"}>
           <Link href={"/#usługi"}>
-            <button className={"h-[27px] text-[13px] sm:text-base sm:h-[46px] px-8 text-white rounded-sm sm:rounded-md bg-primary font-medium"}>Poznaj Ofertę</button>
+            <button
+              className={"h-[27px] text-[13px] sm:text-base sm:h-[46px] px-8 text-white rounded-sm sm:rounded-md bg-primary font-medium"}>Poznaj
+              Ofertę
+            </button>
           </Link>
 
           <p className={""}>lub</p>
