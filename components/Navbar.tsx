@@ -8,7 +8,7 @@ const phone = "48512496766"
 export function Logo() {
   return (
     <div className={"flex flex-col text-white select-none mt-6"}>
-      <p className={"text-[18px] sm:text-[24px] font-semibold"}>AIRBAGS</p>
+      <p className={"text-[20px] sm:text-[28px] font-semibold"}>AIRBAG</p>
       <p className={"text-[30px] sm:text-[42px] font-light -translate-y-1/3"}>PLUS</p>
     </div>
   )

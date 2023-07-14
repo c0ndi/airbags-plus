@@ -30,14 +30,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Airbags Plus</title>
+        <title>Airbag Plus</title>
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
         <meta
           name="description"
           content={"Profesjonalna regeneracja konsoli. Naprawiamy deski rozdzielcze po wybuchu poduszki do wszystkich aut osobowych, bez względu na rok produkcji i pochodzenie. Oklejamy nową skają o takiej samej lub maksymalnie zbliżonej strukturze jak w pierwotnej wersji."}
         />
         <meta property="og:locale" content="pl_PL"/>
-        <meta property="og:site_name" content="AIRBAGS PLUS"/>
+        <meta property="og:site_name" content="AIRBAG PLUS"/>
       </Head>
       <main className={"relative"}>
         <ButtonFixed/>
