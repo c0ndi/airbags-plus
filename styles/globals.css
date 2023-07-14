@@ -27,6 +27,12 @@ body {
   animation: driveAnimationOne 0.7s ease-in-out forwards;
 }
 
+@media (max-width: 440px) {
+  .desc {
+    font-size: 14px;
+  }
+}
+
 
 @keyframes driveAnimationOne {
   from {

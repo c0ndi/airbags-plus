@@ -21,14 +21,14 @@ export default function Hero() {
 
         <div className={"flex sm:items-center gap-6 flex-col sm:flex-row"}>
           <Link href={"/#usługi"}>
-            <button className={"h-[46px] px-8 text-white rounded-md bg-primary font-medium"}>Poznaj Ofertę</button>
+            <button className={"h-[27px] text-[13px] sm:text-base sm:h-[46px] px-8 text-white rounded-sm sm:rounded-md bg-primary font-medium"}>Poznaj Ofertę</button>
           </Link>
 
           <p className={""}>lub</p>
           <Link
             href={`https://wa.me/${phone}`}
             target={"_blank"}
-            className={"font-bold pb-2 border-b border-white font-[Lato] w-max"}
+            className={"text-[13px] sm:text-base font-bold sm:pb-2 border-b border-white font-[Lato] w-max"}
           >
             Zadzwoń {`+${phone.slice(0, 2)} ${phone.slice(2, 5)} ${phone.slice(5, 8)} ${phone.slice(8, 11)}`}
           </Link>
