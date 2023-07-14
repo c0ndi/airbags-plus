@@ -4,7 +4,7 @@ const phone = "48512496766"
 
 export default function Hero() {
   return (
-    <section className={"bg-hero-pattern bg-no-repeat bg-cover h-[80vh] text-white flex items-center select-none"}>
+    <section className={"bg-hero-pattern bg-no-repeat bg-cover h-screen sm:h-[80vh] text-white flex items-center select-none"}>
       <div className={"max-w-[1280px] w-full mx-auto select-auto px-2"}>
         <div className={"text-[32px] sm:text-[48px] font-extrabold"}>
           <p>
