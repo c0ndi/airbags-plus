@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-const phone = "48123123123"
+const phone = "48512496766"
+
 export default function Hero() {
   return (
     <section className={"bg-hero-pattern bg-no-repeat bg-cover h-[80vh] text-white flex items-center select-none"}>

@@ -3,7 +3,7 @@ import FacebookWhiteIcon from "../public/images/facebook-white.png";
 import Image from "next/image";
 import Link from "next/link";
 
-const phone = "48123123123"
+const phone = "48512496766"
 
 export function Logo() {
   return (

@@ -36,7 +36,7 @@ const services = [
   }
 ]
 
-const phone = "48123123123"
+const phone = "48512496766"
 
 export default function Services() {
   return (

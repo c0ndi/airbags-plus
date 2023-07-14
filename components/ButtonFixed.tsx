@@ -2,7 +2,7 @@ import Image from "next/image";
 import WhatsAppIcon from '@/public/images/whatsapp-white.png'
 import Link from "next/link";
 
-const phone = "48123123123"
+const phone = "48512496766"
 
 export default function ButtonFixed() {
   return (

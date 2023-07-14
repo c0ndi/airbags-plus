@@ -1,7 +1,7 @@
 import {Logo} from "@/components/Navbar";
 import Link from "next/link";
 
-const phone = "48123123123"
+const phone = "48512496766"
 
 export default function Footer() {
   return (

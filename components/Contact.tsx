@@ -3,7 +3,7 @@ import Link from "next/link";
 import WhatsAppIcon from '@/public/images/whatsApp.png'
 import RedArrow from '@/public/images/red-arrow.png'
 
-const phone = "48123123123"
+const phone = "48512496766"
 
 export default function Contact() {
   return (
