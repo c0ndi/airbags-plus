@@ -1,11 +1,21 @@
 import Link from "next/link";
+import Image from "next/image";
+import HeroImage from "@/public/images/hero-bg.png";
 
 const phone = "48512496766"
 
 export default function Hero() {
   return (
     <section
-      className={"bg-hero-pattern bg-no-repeat bg-cover h-screen sm:h-[80vh] text-white flex items-center select-none"}>
+      className={"relative h-screen sm:h-[80vh] text-white flex items-center select-none"}>
+      <Image
+        src={HeroImage}
+        fill
+        alt={"Hero"}
+        className={"-z-10 object-cover"}
+        priority={true}
+      />
+
       <div className={"max-w-[1280px] w-full mx-auto select-auto px-2"}>
         <div className={"text-[32px] sm:text-[48px] font-extrabold"}>
           <p>
