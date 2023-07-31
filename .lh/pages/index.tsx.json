@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1690809407605,
@@ -24,6 +24,10 @@
                 {
                     "date": 1690809567316,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n import Head from \"next/head\";\n \n const data = {\n   '@context': 'https://schema.org',\n-  \"@context\": \"https://schema.org/\",\n+  title: 'AIRBAG PLUS',\n   description: 'Regeneracja poduszek powietrznych.',\n };\n \n export default function Home() {\n"
+                },
+                {
+                    "date": 1690810998408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n         <title>Airbag Plus</title>\n         <meta name=\"robots\" content=\"index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1\" />\n         <meta\n           name=\"description\"\n-          content={\"Profesjonalna regeneracja konsoli. Naprawiamy deski rozdzielcze po wybuchu poduszki do wszystkich aut osobowych, bez względu na rok produkcji i pochodzenie. Oklejamy nową skają o takiej samej lub maksymalnie zbliżonej strukturze jak w pierwotnej wersji.\"}\n+          content={\"Profesjonaln regeneracja konsoli. Naprawiamy deski rozdzielcze po wybuchu poduszki do wszystkich aut osobowych, bez względu na rok produkcji i pochodzenie. Oklejamy nową skają o takiej samej lub maksymalnie zbliżonej strukturze jak w pierwotnej wersji.\"}\n         />\n         <meta property=\"og:locale\" content=\"pl_PL\" />\n         <meta property=\"og:site_name\" content=\"AIRBAG PLUS\" />\n         <script\n"
                 }
             ],
             "date": 1690809407605,
