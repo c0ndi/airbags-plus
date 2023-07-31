@@ -1,0 +1,26 @@
+{
+    "sourceFile": "next-sitemap.config.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1690810596995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1690810626270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n module.exports = {\n-    siteUrl: process.env.SITE_URL || 'https://example.com',\n+    siteUrl: process.env.SITE_URL || 'https://airbag-plus.pl',\n     generateRobotsTxt: true, // (optional)\n     // ...other options\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1690810638616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n module.exports = {\n-    siteUrl: process.env.SITE_URL || 'https://airbag-plus.pl',\n+    siteUrl: 'https://airbag-plus.pl',\n     generateRobotsTxt: true, // (optional)\n     // ...other options\n   }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1690810596995,
+            "name": "Commit-0",
+            "content": "module.exports = {\n    siteUrl: process.env.SITE_URL || 'https://example.com',\n    generateRobotsTxt: true, // (optional)\n    // ...other options\n  }"
+        }
+    ]
+}
