@@ -74,7 +74,7 @@ export default function Services() {
         <div className={"w-full sm:w-1/2 relative h-[400px] sm:order-2"}>
           <Image
             src={ServiceTwoImage}
-            alt={"Regeneracja poduszek potwietrznych"}
+            alt={"Regeneracja desek rozdzielczych"}
             fill
             className={"object-cover rounded-lg"}
           />
@@ -90,7 +90,7 @@ export default function Services() {
           <Image
             src={ServiceThreeImage}
             fill
-            alt={"Regeneracja poduszek potwietrznych"}
+            alt={"Regeneracja pasów bezpieczeństwa"}
             className={"object-cover rounded-lg"}
           />
         </div>

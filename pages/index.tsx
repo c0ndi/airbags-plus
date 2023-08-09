@@ -42,6 +42,7 @@ export default function Home() {
           name="description"
           content={"Skup poduszek. Profesjonalna regeneracja konsol. Naprawiamy deski rozdzielcze po wybuchu poduszki do wszystkich aut osobowych, bez względu na rok produkcji i pochodzenie. Oklejamy nową skają o takiej samej lub maksymalnie zbliżonej strukturze jak w pierwotnej wersji."}
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta property="og:locale" content="pl_PL" />
         <meta property="og:site_name" content="AIRBAG PLUS" />
         <script
@@ -52,11 +53,16 @@ export default function Home() {
 
         <meta
           property="og:description"
-          content="And a social description for our cool page"
+          content="Skup poduszek. Regeneracja desek rozdzielczych, regulacja pasów bezpieczeństwa."
         />
         <meta
           property="og:image"
-          content="https://example.com/images/cool-page.jpg"
+          content="/apple-icon-180x180.png"
+        />
+
+        <meta 
+          property="og:url"
+          content="https://airbag-plus.pl"
         />
 
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
@@ -77,6 +83,7 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#000" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#000" />
+        <link rel="canononical" href="https://www.airbag-plus.pl/" />
       </Head>
       <main className={"relative"}>
         <ButtonFixed />

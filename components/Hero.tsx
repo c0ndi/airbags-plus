@@ -11,20 +11,20 @@ export default function Hero() {
       <Image
         src={HeroImage}
         fill
-        alt={"Hero"}
+        alt={"Airbag plus - regeneracja poduszek powietrznych, skup poduszek, pasów bezpieczeństwa, naprawa desek rozdzielczych"}
         className={"-z-10 object-cover"}
         priority={true}
       />
 
       <div className={"max-w-[1280px] w-full mx-auto select-auto px-2"}>
-        <div className={"text-[32px] sm:text-[48px] font-extrabold"}>
+        <h1 className={"text-[32px] sm:text-[48px] font-extrabold"}>
           <p>
             SPRZEDAŻ,
             <span className={"text-primary"}> SKUP</span>
           </p>
           NAPRAWA
           <span className={"text-primary"}> AIRBAGOW</span>
-        </div>
+        </h1>
 
         <p className={"desc pb-3 sm:w-[500px]"}>
           Nasza oferta usług skierowana jest do klientów indywidualnych oraz warsztatów samochodowych z całej Europy,
