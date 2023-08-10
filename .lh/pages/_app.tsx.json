@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1691698379393,
@@ -16,6 +16,14 @@
                 {
                     "date": 1691698393805,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import '@/styles/globals.css'\n import type { AppProps } from 'next/app'\n import Script from 'next/script'\n+import * as gtag from '@/gtag'\n \n \n export default function App({ Component, pageProps }: AppProps) {\n   return (\n"
+                },
+                {
+                    "date": 1691700779315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import '@/styles/globals.css'\n import type { AppProps } from 'next/app'\n import Script from 'next/script'\n import * as gtag from '@/gtag'\n+import { Analytics } from '@vercel/analytics/react';\n \n \n export default function App({ Component, pageProps }: AppProps) {\n   return (\n"
+                },
+                {
+                    "date": 1691700786394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n import Script from 'next/script'\n import * as gtag from '@/gtag'\n import { Analytics } from '@vercel/analytics/react';\n \n-\n export default function App({ Component, pageProps }: AppProps) {\n   return (\n     <>\n       <Script\n@@ -26,7 +25,8 @@\n           `,\n         }}\n       />\n       <Component {...pageProps} />\n+      <Analytics />\n     </>\n   )\n }\n"
                 }
             ],
             "date": 1691698379393,
