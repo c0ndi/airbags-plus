@@ -1,6 +1,6 @@
-import Link from "next/link";
-import Image from "next/image";
 import HeroImage from "@/public/images/hero-bg.png";
+import Image from "next/image";
+import Link from "next/link";
 
 const phone = "48512496766"
 
@@ -28,7 +28,7 @@ export default function Hero() {
 
         <p className={"desc pb-3 sm:w-[500px]"}>
           Nasza oferta usług skierowana jest do klientów indywidualnych oraz warsztatów samochodowych z całej Europy,
-          ogległość nie jest dla nas ograniczeniem`
+          ogległość nie jest dla nas ograniczeniem
         </p>
 
         <div className={"flex sm:items-center gap-6 flex-col sm:flex-row"}>
