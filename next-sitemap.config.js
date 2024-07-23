@@ -1,5 +1,5 @@
 module.exports = {
-    siteUrl: 'https://airbag-plus.pl',
-    generateRobotsTxt: true, // (optional)
-    // ...other options
-  }
+  siteUrl: "https://airbags-plus.pl",
+  generateRobotsTxt: true, // (optional)
+  // ...other options
+};

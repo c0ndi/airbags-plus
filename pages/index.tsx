@@ -1,20 +1,20 @@
-import Hero from "@/components/Hero";
-import Steps from "@/components/Steps";
-import Services from "@/components/Services";
+import ButtonFixed from "@/components/ButtonFixed";
 import Contact from "@/components/Contact";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import Loading from "@/components/Loading";
+import Navbar from "@/components/Navbar";
+import Services from "@/components/Services";
+import Steps from "@/components/Steps";
 import GradientOne from "@/public/images/gradient-1.png";
 import GradientTwo from "@/public/images/gradient-2.png";
-import ButtonFixed from "@/components/ButtonFixed";
-import { useEffect, useState } from "react";
-import Loading from "@/components/Loading";
 import Head from "next/head";
+import Image from "next/image";
+import { useEffect, useState } from "react";
 
 const data = {
   '@context': 'https://schema.org',
-  title: 'AIRBAG PLUS',
+  title: 'AIRBAGS PLUS',
   description: 'Regeneracja poduszek powietrznych.',
 };
 
@@ -36,15 +36,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Airbag Plus [SKUP PODUSZEK]</title>
+        <title>Airbags Plus [SKUP PODUSZEK]</title>
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta
           name="description"
           content={"Skup poduszek. Profesjonalna regeneracja konsol. Naprawiamy deski rozdzielcze po wybuchu poduszki do wszystkich aut osobowych, bez względu na rok produkcji i pochodzenie. Oklejamy nową skają o takiej samej lub maksymalnie zbliżonej strukturze jak w pierwotnej wersji."}
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:locale" content="pl_PL" />
-        <meta property="og:site_name" content="AIRBAG PLUS" />
+        <meta property="og:site_name" content="AIRBAGS PLUS" />
         <script
           key="structured-data"
           type="application/ld+json"
@@ -60,9 +60,9 @@ export default function Home() {
           content="/apple-icon-180x180.png"
         />
 
-        <meta 
+        <meta
           property="og:url"
-          content="https://airbag-plus.pl"
+          content="https://airbags-plus.pl"
         />
 
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
@@ -84,7 +84,7 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#000" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#000" />
-        <link rel="canononical" href="https://www.airbag-plus.pl/" />
+        <link rel="canononical" href="https://www.airbags-plus.pl/" />
       </Head>
       <main className={"relative"}>
         <ButtonFixed />

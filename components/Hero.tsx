@@ -11,7 +11,7 @@ export default function Hero() {
       <Image
         src={HeroImage}
         fill
-        alt={"Airbag plus - regeneracja poduszek powietrznych, skup poduszek, pasów bezpieczeństwa, naprawa desek rozdzielczych"}
+        alt={"Airbags plus - regeneracja poduszek powietrznych, skup poduszek, pasów bezpieczeństwa, naprawa desek rozdzielczych"}
         className={"-z-10 object-cover"}
         priority={true}
       />

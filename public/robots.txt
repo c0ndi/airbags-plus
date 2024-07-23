@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://airbag-plus.pl
+Host: https://airbags-plus.pl
 
 # Sitemaps
-Sitemap: https://airbag-plus.pl/sitemap.xml
+Sitemap: https://airbags-plus.pl/sitemap.xml
